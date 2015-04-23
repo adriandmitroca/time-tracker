@@ -1,0 +1,4 @@
+/bower_components
+.DS_STORE
+time-tracker.sublime-project
+time-tracker.sublime-workspace
