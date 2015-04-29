@@ -14,3 +14,9 @@
 Route::get('/', function() {
 	return view('index');
 });
+
+Route::group(['prefix' => 'api'], function()
+{
+	Route::resource('time', 'TimeEntriesController');
+	Route::resource('users', 'UsersController');
+});
